@@ -1,0 +1,46 @@
+{
+    "method": "/queryDataService/queryDataOnWidget",
+    "headers": {
+        "rid": "",
+        "type": "PULL"
+    },
+    "body": {
+        "args": {
+            "referer": "strategy-categoryPreferenceAnalysis",
+            "id": "",
+            "isMock": 0,
+            "whatIfParam": {
+                "widgetParamList": [],
+                "customParamList": []
+            },
+            "widgetSelections": null,
+            "selections": [
+                {
+                    "dimensionName": "reportId",
+                    "restrictList": [
+                        {
+                            "hide": 1,
+                            "oper": "eq",
+                            "value": ""
+                        }
+                    ],
+                    "eq": [
+                        {
+                            "hide": 1,
+                            "oper": "eq",
+                            "value": ""
+                        }
+                    ],
+                    "lt": null,
+                    "gt": null,
+                    "ge": null,
+                    "le": null,
+                    "ne": null,
+                    "showText": ""
+                }
+            ],
+            "rdPathInfoList": [],
+            "appId": "7"
+        }
+    }
+}
